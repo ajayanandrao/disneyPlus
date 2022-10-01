@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from 'react-redux';
+import './App.scss';
+import store from './redux/Store/Store';
+import { motion } from 'framer-motion';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Provider store={store}>
+        <div className='container'>
+          <div className='c'>
+
+            <motion.h2 className='h2'
+              initial={{ y: -100, opacity: 0, }}
+              transition={{ delay: 1, duration: 1.5 }}
+              animate={{
+                opacity: 1, y: 0
+              }}>
+              Wellcome Ajay
+            </motion.h2>
+          
+          </div>
+        </div>
+      </Provider>
+    </>
   );
 }
 
