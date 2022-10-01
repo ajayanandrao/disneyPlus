@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <Router basename='/diseny'>
+        <Router basename='/disney'>
           <Routes>
             <Route exact path='/' element={<Home/>}/>
           </Routes>
