@@ -1,0 +1,14 @@
+@import './mixin.scss';
+.mt{
+    padding-top: 60px;
+    margin:20px 0px;
+    color: whitesmoke;
+}
+
+@include mobile{
+.mt{
+    padding-top: 46px;
+}
+}
+
+// =================================================================

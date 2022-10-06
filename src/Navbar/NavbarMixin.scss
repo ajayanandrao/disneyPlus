@@ -1,0 +1,59 @@
+@import '../mixin';
+
+@include tab {
+    .search-box:focus {
+        width: 250px;
+    }
+
+}
+
+@include tab-sm {
+    .search-box {
+        width: 200px;
+    }
+
+    .search-box:focus {
+        width: 200px;
+    }
+
+    .sub-btn {
+        height: 25px;
+        padding: 0 10px;
+        font-weight: 700;
+        font-size: 12px;
+        margin: 5px;
+    }
+}
+
+@include mobile {
+
+    
+.container-fluid {
+    /* navbar.scss */
+    width: 100%;
+}
+    .search-box {
+        width: 100px !important;
+        font-size: 14px;
+    }
+
+    .search-box:focus {
+        width: 200px !important;
+    }
+
+    .profile-icon {
+        width: 25px !important;
+        margin: 0px 0px !important;
+    }
+
+    .bi {
+        margin-top: 10px !important;
+        position: relative;
+        right: 14px;
+        font-size: 14px;
+    }
+
+    .sub-btn {
+        display: none;
+    }
+}

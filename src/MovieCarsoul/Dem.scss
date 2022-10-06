@@ -1,0 +1,29 @@
+.outer{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background: black;
+    position: relative;
+    .innerOne{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    .inner-text{
+        position: relative;
+        z-index: 1;
+        width: 50%;
+        height: 100%;
+        // background: #333;
+        padding: 10px;
+    }
+    }
+    .ImgC{
+        width: 100%;
+        height: 100%;
+        object-position: 50% 20%;
+        position: absolute;
+        object-fit: cover;
+        // object-position: 5% 100%;
+    }
+}

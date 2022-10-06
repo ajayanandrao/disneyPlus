@@ -1,0 +1,47 @@
+.footer-container{
+    width: 100%;
+    height: 100px;
+    background: #181818;
+    padding:  15px 20px;
+    display: flex;
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        // background: red;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+        color: rgb(202, 201, 201);
+        
+        .un-list{
+            margin: 0px;
+            display: flex;
+            align-items: center;
+            list-style: none;
+            
+            li{ 
+                margin-right:15px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+        .reserved{
+            padding-left: 30px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+    .logo-container-inner{
+        background: red;
+        display: flex;
+        flex-direction: column;
+        // .bi-facebook{
+        //     font-size: 30px;
+        //     margin:0px 10px;
+        // }
+        // .bi-twitter{
+        //     margin:0px 10px;
+        //     font-size: 30px;
+        // }
+    }
+}
