@@ -2,17 +2,23 @@
     {
         "id": 1,
         "img":"https://www.posterposse.com/wp-content/uploads/2019/03/CAPMARVEL-1024x379.jpg",
-        "textDesLower":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum nulla nostrum odit fugiat? Laboriosam maxime reiciendis"
+        "name":"captain marvel",
+        "title": "marvel . superhero",
+        "textDesLower":"carol danvers becomes on of the universe's most powerful heroes when earth is caught in the middle of a galactic war between two alien races...."
     },
     {
         "id": 2,
         "img":"https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/7972/1317972-h-3217e6c47ab5",
-        "textDesLower":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum nulla nostrum odit fugiat? Laboriosam maxime reiciendis"
+        "name":"she hulk",
+        "title": "marvel . superhero",
+        "textDesLower":"NEW EPISODE EVERY WEDNESDAY AT 12:30 PM. is a Superhero jennifer Walters, an attorney specialising in suprehuman-oriented legal cases, must navigate the complicated life of a single, green 6-foot-7-inch hulk...."
     },
     {
         "id": 3,
         "img":"https://www.slashfilm.com/img/gallery/thor-love-and-thunder-director-taika-waititi-has-no-idea-whats-next-for-that-credit-scene-character/intro-1657304061.jpg",
-        "textDesLower":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum nulla nostrum odit fugiat? Laboriosam maxime reiciendis"
+        "name":"thor love and thunder",
+        "title": "marvel . superhero",
+        "textDesLower":" the god of thunder teams up with king valkerie, korg and ex-girlfriend-turned-mighty-thore    jane foster to take on a galactic killer known as gorr the god butcher.... "
     }
 
 ]

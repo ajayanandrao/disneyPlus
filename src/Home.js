@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
-import DisneyCarsoul from './Carsoule/DisneyCarsoul'
 import './Home.scss';
 import MovieCarsoul from './MovieCarsoul/MovieCarsoul';
 import VideoCard from './Video Card/VideoCard';
@@ -12,29 +11,23 @@ import Dem from './MovieCarsoul/Dem';
 
 
 const Home = () => {
-  
+
 
   return (
     <>
       <Navbar />
       <div className="mt">
-        
-        {/* <DisneyCarsoul /> */}
-        {/* <VideoCard /> */}
-               <Dem/>
+        <Dem />
+        <VideoCard />
         <MovieCarsoul />
-        {/* <Cartoon /> */}
-       {/* <StarWar/> */}
-        {/* <Nature />   */}
+        <Cartoon />
+        <StarWar />
+        <Nature />
       </div>
-      {/* <Footer/> */}
+      <Footer />
     </>
   )
 }
 
 export default Home
 
-// <div>about</div>
-//                 <div>disney+hotstar</div>  <div>terms of use</div>
-//                 <div>privacy policy</div>  <div>FAQ</div>
-//                 <div>feedback</div> <div>careers</div>
