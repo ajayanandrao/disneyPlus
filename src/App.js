@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <Router basename='/disney'>
+        <Router basename='/disneyPlus'>
         <ScrollToTop/>
           <Routes>
             <Route exact path='/' element={<Home/>}/>
