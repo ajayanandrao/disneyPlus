@@ -1,39 +1,5 @@
 @import '.././mixin.scss';
 
-.slick-outer{
-    width: 95%;
-    margin: 0 auto;
-.body{
-    width:300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-.one{
-    background: blue;
-}
-.two{
-    background: orange;
-}
-.th{
-    background: brown;
-}
-.fo{
-    background: blueviolet;
-}
-.fi{
-    background: green;
-}
-.si{
-    background: yellow;
-}
-}
-
-
 
 // 
 .category{
@@ -75,7 +41,7 @@
             height: 195px;
             background: linear-gradient(to top, transparent, #23304A 0%, transparent 60%, transparent);
             cursor: pointer;
-            color: rgb(211, 211, 211);
+            color: rgb(211, 211, 211) !important;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -105,6 +71,7 @@
                 font-weight: 700;
                 line-height: 13px;
                 text-transform: capitalize;
+                color: white;
             }
         }
 
@@ -190,21 +157,6 @@
                 position: absolute;
                 z-index: 1;
     
-                // .textTitle{
-                //     font-size: 11px;
-                //     font-weight: 700;
-                //     text-transform: capitalize;
-                //     line-height: 13px;
-                //     margin-bottom: 3px;
-    
-                // }
-                // .textDec{
-                //     font-size: 11px;
-                //     font-weight: 00;
-                //     line-height: 13px;
-                //     text-transform: uppercase;
-                    
-                // }
                 .textDecLower{
                     font-size: 11px;
                     font-weight: 700;

@@ -3,7 +3,7 @@ import React from 'react'
 const Disney = () => {
   return (
     <>
-    hellosdfasdfa 
+    <div style={{color:"white"}}><h1>Disney</h1></div>
     </>
   )
 }

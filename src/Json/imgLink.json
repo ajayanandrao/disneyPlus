@@ -8,7 +8,8 @@
     {
         "id": 2,
         "img":"https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/8317/1328317-v-56412010beba",
-        "textDesLower":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum nulla nostrum odit fugiat? Laboriosam maxime reiciendis"
+        "textDesLower":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione illum nulla nostrum odit fugiat? Laboriosam maxime reiciendis",
+        "mrout": "/marval"
     },
     {
         "id": 3,
