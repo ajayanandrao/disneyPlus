@@ -4,6 +4,7 @@
   margin: 0 auto;
   // background: black;
   position: relative;
+  margin: 0px 13px;
 
   .innerOne {
     width: 100%;
@@ -34,4 +35,21 @@
   }
 }
 
+.carousel-cell {
+  display: flex;
+  overflow: hidden;
+  // justify-content: center;
+  // align-items: center;
+  margin-top: 5px;
+  width: 95%;
+  height: 400px;
+  margin-right: 0px;
+  background: none !important;
+  border-radius: 5px;
+  // counter-increment: carousel-cell;
+
+  &:hover {
+      cursor: pointer !important;
+  }
+}
 // =================================================================
